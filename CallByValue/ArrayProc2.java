@@ -1,4 +1,4 @@
-package CBV;
+package CallByValue;
 
 import java.util.Scanner;
 

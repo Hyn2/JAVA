@@ -1,4 +1,4 @@
-package CBV;
+package CallByValue;
 
 public class ArrayProcTest {
     public static void main (String [] args) {

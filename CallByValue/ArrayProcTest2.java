@@ -1,4 +1,4 @@
-package CBV;
+package CallByValue;
 
 public class ArrayProcTest2 {
     final static int STUDENTS = 5;

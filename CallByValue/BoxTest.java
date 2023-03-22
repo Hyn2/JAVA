@@ -1,4 +1,4 @@
-package CBV;
+package CallByValue;
 
 public class BoxTest {
     public static void main(String[] args) {
@@ -12,8 +12,9 @@ public class BoxTest {
 
         // .whoisLargerBox는 부피가 더 큰 객체의 주소값을 변수 'largerBox'에 저장
         Box largerBox = Box.whoisLargerBox(b1, b2);
-
+        boolean result = b1.isSameBox(b2);
         // largerBox에 저장된 객체의 부피값을 출력
+        System.out.println("박스1과 박스2는 같다? : " + result);
         System.out.println("더 큰 박스의 부피: " + largerBox.getVolume());
     }
 }

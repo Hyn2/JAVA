@@ -1,4 +1,4 @@
-package CBV;
+package CallByValue;
 
 public class Box {
     // 변수
@@ -23,5 +23,19 @@ public class Box {
         }
         return box2;
     }
+    /*
+     * 인자로 주어지는 Box 객체와 동일한 너비와 높이를 가지는 Box인지 체크하는 메소드
+     * 같으면 True, 다르면 false를 반환
+     */
 
+     public boolean isSameBox(Box box) {
+        /*
+         * 나의 width, length, height가 인자로 주어진 box의 그것과 모두 같으면 true를 반환, 
+         * 그렇지 않으면 false를 반환
+         */
+        if(this.width == box.width && length == box.length && height == box.height) {
+             return true;
+        }
+        return false;
+     }
 }

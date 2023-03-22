@@ -1,4 +1,4 @@
-package CBV;
+package CallByValue;
 
 public class MyCounterTest3 {
     public static void main(String [] args) {

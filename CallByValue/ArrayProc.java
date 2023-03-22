@@ -1,4 +1,4 @@
-package CBV;
+package CallByValue;
 
 public class ArrayProc {
     void inc(int [] array) {

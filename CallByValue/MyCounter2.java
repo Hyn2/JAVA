@@ -1,4 +1,4 @@
-package CBV;
+package CallByValue;
 
 public class MyCounter2 {
     void inc(int a) {
