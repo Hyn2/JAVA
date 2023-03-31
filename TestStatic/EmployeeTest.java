@@ -8,6 +8,9 @@ public class EmployeeTest {
         e3 = new Employee("daehan", 30000);
 
         int employeeCount = Employee.getCount();
+        System.out.println(e1);
+        System.out.println(e2);
+        System.out.println(e3);
         System.out.printf("현재 직원수 : %n", employeeCount);
     }
 }

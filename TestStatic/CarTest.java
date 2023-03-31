@@ -7,6 +7,9 @@ public class CarTest {
         c2 = new Car("bnr35", "black", 80);
         c3 = new Car("bnr32", "silver", 80);
         System.out.println("생성된 자동차 수 : " + Car.getNumbers());
+        System.out.println(c1);
+        System.out.println(c2);
+        System.out.println(c3);
 
         // 자바의 수학 관련 라이브러리 클래스는 정적 메서드를 사용
         double d = Math.sqrt(9);
