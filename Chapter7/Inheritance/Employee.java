@@ -6,11 +6,11 @@ public class Employee {
     protected int salary;
     private int rrn;
 
-    public Employee(String name, String address, int salary, int rrn) {
-        this.name;
-        this.address;
-        this.salary;
-        this.rrn;
+    public Employee(String nameArgs, String addressArgs, int salaryArgs, int rrnArgs) {
+        this.name = nameArgs;
+        this.address = addressArgs;
+        this.salary = salaryArgs;
+        this.rrn = rrnArgs;
     }
 
     @Override

@@ -6,6 +6,6 @@ public class SportsCarTest {
         obj.speed = 10;
         obj.setSpeed(60);
         obj.setTurbo(true);
-        System.out.println(objㅈ);
+        System.out.println(obj);
     }
 }
