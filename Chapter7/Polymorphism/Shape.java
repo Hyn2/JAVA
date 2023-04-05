@@ -1,4 +1,4 @@
-package Polymorphism;
+package Chapter7.Polymorphism;
 
 public class Shape {
 
@@ -22,5 +22,4 @@ public class Shape {
     public void draw() {
         System.out.println("Shape Draw["+x+","+y+"]");
     }
-    
 }

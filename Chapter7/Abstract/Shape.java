@@ -1,4 +1,4 @@
-package Abstract;
+package Chapter7.Abstract;
 
 public abstract class Shape {
     private int x;

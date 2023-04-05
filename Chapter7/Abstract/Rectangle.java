@@ -1,4 +1,4 @@
-package Abstract;
+package Chapter7.Abstract;
 
 public class Rectangle extends Shape {
     public void draw() {

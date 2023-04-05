@@ -1,4 +1,4 @@
-package Polymorphism;
+package Chapter7.Polymorphism;
 
 public class Circle extends Shape {
     private int width, height;
