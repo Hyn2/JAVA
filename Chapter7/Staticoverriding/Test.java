@@ -1,4 +1,4 @@
-package Staticoverriding;
+package Chapter7.Staticoverriding;
 
 public class Test {
   public static void main(String[] args) {

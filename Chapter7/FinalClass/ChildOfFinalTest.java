@@ -1,4 +1,4 @@
-package FinalClass;
+package Chapter7.FinalClass;
 
 public class ChildOfFinalTest extends FinalTest  {
   

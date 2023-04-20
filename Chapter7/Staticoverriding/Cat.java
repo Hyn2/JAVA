@@ -1,4 +1,4 @@
-package Staticoverriding;
+package Chapter7.Staticoverriding;
 
 public class Cat extends Animal {
   public static void eat() {

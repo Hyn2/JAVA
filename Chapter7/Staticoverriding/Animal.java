@@ -1,4 +1,4 @@
-package Staticoverriding;
+package Chapter7.Staticoverriding;
 
 public class Animal {
   // 모든 애니멀 클래스의 인스턴스가 공유하는 정적 메서드

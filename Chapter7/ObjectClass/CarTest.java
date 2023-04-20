@@ -1,4 +1,4 @@
-package ObjectClass;
+package Chapter7.ObjectClass;
 
 public class CarTest {
     public static void main(String[] args) {

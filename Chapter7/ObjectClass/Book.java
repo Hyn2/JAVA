@@ -1,4 +1,4 @@
-package ObjectClass;
+package Chapter7.ObjectClass;
 
 public class Book {
     private String title;
