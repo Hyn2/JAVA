@@ -6,6 +6,6 @@ public class ChildOfFinalTest extends FinalTest  {
   
   @Override
   public String getFirstPlayer()  {
-    return 'white';
+    return "white";
   }
 }
