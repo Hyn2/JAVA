@@ -1,4 +1,4 @@
-package Interface;
+package Chapter9.Interface;
 
 public interface AutoDrive {
   void start();

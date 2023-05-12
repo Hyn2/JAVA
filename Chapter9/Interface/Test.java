@@ -1,4 +1,4 @@
-package Interface;
+package Chapter9.Interface;
 
 public class Test {
   public static void main(String[] args) {

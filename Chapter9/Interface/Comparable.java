@@ -1,4 +1,4 @@
-package Interface;
+package Chapter9.Interface;
 
 public interface Comparable {
   // 기본적으로 인터페이스에는 추상 메소드만 존재한다.

@@ -1,4 +1,4 @@
-package Interface;
+package Chapter9.Interface;
 
 public class Car implements AutoDrive {
    public void setSpeed(int speed) {

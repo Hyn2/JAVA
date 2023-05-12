@@ -1,4 +1,4 @@
-package Interface;
+package Chapter9.Interface;
 
 public class Car2 implements Comparable {
   private String brand;

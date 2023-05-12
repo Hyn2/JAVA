@@ -1,7 +1,5 @@
 package Chapter7.MethodOverriding;
 
-import javax.sql.rowset.spi.SyncResolver;
-
 class Bank {
     double geteInterestRate() {
         return 0;

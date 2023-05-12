@@ -1,3 +1,5 @@
+package Chapter5.StringClass;
+
 import java.util.Scanner;
 
 public class StringTest2 {

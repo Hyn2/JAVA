@@ -1,3 +1,5 @@
+package Chapter5.StringClass;
+
 public class StringTest {
     public static void main(String[]args) {
         String proverb = "A barking dog";
