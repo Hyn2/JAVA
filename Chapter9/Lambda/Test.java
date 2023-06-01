@@ -17,10 +17,48 @@ public class Test {
     list.add(p2);
     list.add(p3);
 
-    printPersonOlderThan(list, 12);
-    printPersonsWithinAgeRange(list, 21, 22);
+    //printPersonOlderThan(list, 12);
+    // //printPersonsWithinAgeRange(list, 21, 22);
+    // printPersons(list, new CheckPerson() {
+    //   public boolean test(Person p) {
+    //     return p.getGender() == Sex.MALE;
+    //   }
+    // });
 
+    // 람다식은 이름없는 메소드라 할 수 있다.
+    // 람다식을 이용하는 이유는 간결하기 때문이다.
+    // 람다식을 이용하는 메소드가 필요한 곳에 간단히 메소드를 보낼 수 있다.
+    // 람다식은 함수형 프로그래밍을 자바에 도입한 것이다.
+    // 람다식은 오직 하나의 추상 메소드를 가지는 인터페이스 타입의 객체를 요구하는
+    // 메소드의 인자로 전달될 수 있다.
+    // 람다식의 문법
+    // (arg1, arg2, ...) -> {body}
+    // (type1 arg1, type2 arg2, ...) -> {body}
+
+    // 위의 무명클래스를 람다식으로 구현
+    // printPersons(list, (p)->{return p.getGender() == Sex.MALE;});
+
+    // printPersons(list, (Person p)->{return p.getGender() == Sex.MALE;});
+
+    // 람다식의 body가 return 문 하나만으로 구성되어 있으면 return 키워드, {} 문장 끝의 세미콜론도 생략할 수 있다.
+    // printPersons(list, (p)->p.getGender() == Sex.MALE);
+
+    // 람다식의 매개변수가 오직 하나일 때는 매개변수를 둘러싸는 () 생략할 수 있다.
+    // printPersons(list, p->{
+    //   System.out.println(p.getName());
+    //   return p.getAge() =>30;  
+    // });
+
+    // 람다식을 이용해서 printPersons 메소드를 호출하고,
+    // 그 결과로 나이 20에서 30살 사이의 여자만 출력되도록 구현하라.
+
+    // 람다식을 이용하여 printPersons 메소드를 호출하고,
+    // 그 결과로 나이가 20에서 30살 사이의 여자만 출력되도록 구현
+    printPersons(list, (p)->{return p.getGender() == Sex.FEMALE && (p.getAge() < 30 || p.getAge() > 20);});
   }
+ 
+
+
   // collection framework : list Set, Map, Stack, Queue
   // collection framework는 여러 개의 값을 저장하는 자바의 자료구조
   // 이 자료구조에 들어갈 수 있는 원소 타입을 자바의 generic 이라는 기능을 이용해 지정할 수 있다
@@ -66,5 +104,11 @@ interface CheckPerson {
 class CheckPersonMale18to25 implements CheckPerson {
   public boolean test(Person p) {
     return p.getGender() == Sex.MALE && p.getAge() >= 18 && p.getAge() <= 25;
+  }
+}
+
+class CheckPersonMale implements CheckPerson {
+  public boolean test(Person p) {
+    return p.getGender() == Sex.MALE;
   }
 }
