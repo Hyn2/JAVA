@@ -19,6 +19,9 @@ public class LambdaTest {
     printList(list);
   }
 
+
+
+
   public static void printList(List<String> list) {
     for(String s : list) {
       System.out.println(s);
